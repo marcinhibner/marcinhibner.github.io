@@ -10,25 +10,41 @@
 
     <h1>zadanie domowe nr 2</h1>
 
-    <form action="https://formspree.io/marcin.hibner@o2.pl" method="post"></form>
+    <form action="https://formspree.io/marcin.hibner@o2.pl" method="post">
+    
     <label for="Imię">Imię</label><br>
     <input type="text" id="Imię" name="Imię"><br>
+    
     <br><label for="Nazwisko">Nazwisko</label><br>
     <input type="text" id="Nazwisko" name="Nazwisko"><br>
+    
     <br><label for="Email">Email</label><br>
     <input type="text" id="Email" name="Email"><br>
+    
     <br><label for="Telefon">Telefon</label><br>
     <input type="text" id="Telefon" name="Telefon"><br>
-    <br><label for="Miasto">Miasto</label><br>
-   <select name="Miasto" id="Miasto">
+    
+    <br><label for="Miasto">Miasto:</label><br>
+    <select name="Miasto" id="Miasto">
        <option value="Kraków">Kraków</option>
        <option value="Warszawa">Warszawa</option>
        <option value="Gdańsk">Gdańsk</option>
    </select><br>
-   <br><label for="Płeć">Płeć</label><br>
+   
+    <br><label for="Płeć">Płeć:</label><br>
     <input type="radio" id="Płeć" name="Płeć" value="Mężczyzna">Mężczyzna<br>
     <input type="radio" id="Płeć" name="Płeć" value="Kobieta">Kobieta<br>
     
+    <br><label for="Zgoda na przetwarzanie danych osobowych">Zgoda na przetwarzanie danych osobowych:</label><br>
+    <input type="checkbox" name="Zgoda na przetwarzanie danych osobowych" value="Zgadzam się">Zgadzam się<br>
+    <input type="checkbox" name="Zgoda na przetwarzanie danych osobowych" value="Nie zgadzam się">Nie zgadzam się<br>
+    
+    <br><label for="Wiadomość">Wiadomość:</label><br>
+    <textarea name="Wiadomość" id="Wiadomość" cols="50" rows="3"></textarea><br>
+    
+    <input type="submit" value="Wyślij"><br>
+    
+    </form>
 
 
 </body>
