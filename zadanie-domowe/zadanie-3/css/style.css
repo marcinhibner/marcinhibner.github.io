@@ -2,192 +2,126 @@ body {
   background-color: black;
 }
 
-div#kontener {
+#kontener {
     border: solid 2px white;
     position: relative;
     height: 600px;
     width: 600px;
 }
 
-div#kontener1 {
-    border: solid 2px white;
+.kwadrat {
+   border: solid 2px white;
+   position: absolute;
+   height: 200px;
+   width: 200px;
+}
+
+.kolko {
+  border: solid black;
+  border-radius: 50px;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+#kontener1 {
     background-color: red;
-    position: absolute;
-    height: 200px;
-    width: 200px;
 }
 
-div#kolko1 {
+#kolko1 {
   background-color: pink;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 50px;
   left: 50px;
 }
 
-div#kontener2 {
-    border: solid 2px white;
+#kontener2 {
     background-color: blue;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 200px;
 }
 
-div#kolko2 {
+#kolko2 {
   background-color: grey;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 50px;
   left: 250px;
 }
 
-div#kontener3 {
-    border: solid 2px white;
+#kontener3 {
     background-color: green;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 0px;
 }
 
-div#kolko3 {
+#kolko3 {
   background-color: purple;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 50px;
   right: 50px;
 }
 
-div#kontener4 {
-    border: solid 2px white;
+#kontener4 {
     background-color: yellow;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     top: 200px;
 }
 
-div#kolko4 {
+#kolko4 {
   background-color: green;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 250px;
   left: 50px;
 }
 
-div#kontener5 {
-    border: solid 2px white;
+#kontener5 {
     background-color: black;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 200px;
     top: 200px;
 }
 
-div#kolko5 {
+#kolko5 {
   background-color: red;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 250px;
   left: 250px;
 }
 
-div#kontener6 {
-    border: solid 2px white;
+#kontener6 {
     background-color: orange;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 0px;
     top: 200px;
 }
 
-div#kolko6 {
+#kolko6 {
   background-color: blue;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   top: 250px;
   right: 50px;
 }
 
-div#kontener7 {
-    border: solid 2px white;
+#kontener7 {
     background-color: purple;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     top: 400px;
 }
 
-div#kolko7 {
+#kolko7 {
   background-color: orange;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   bottom: 50px;
   left: 50px;
 }
 
-div#kontener8 {
-    border: solid 2px white;
+#kontener8 {
     background-color: grey;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 200px;
     top: 400px;
 }
 
-div#kolko8 {
+#kolko8 {
   background-color: yellow;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   bottom: 50px;
   right:250px;
 }
 
-div#kontener9 {
-    border: solid 2px white;
+#kontener9 {
     background-color: pink;
-    position: absolute;
-    height: 200px;
-    width: 200px;
     right: 0px;
     top: 400px;
 }
 
-div#kolko9 {
+#kolko9 {
   background-color: black;
-  border: solid black;
-  border-radius: 50px;
-  position: absolute;
-  height: 100px;
-  width: 100px;
   bottom: 50px;
   right: 50px;
 }
