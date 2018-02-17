@@ -1,18 +1,9 @@
-var tekst = ["A", "k", "a", "d", "e", "m", "i", "a", "1", "0", "8"];
-console.log(tekst);
+"use strict";
 
-var tekstReverse = tekst.reverse();
-console.log(tekstReverse);
+var napis = "Akademia108";
 
-var tablicaTekst = tekst.join("");
-console.log(tablicaTekst);
+function odwrocTekst(napis) {
+  return napis.split('').reverse().join('');
+}
 
-
-
-// function reverseString(tekst) {
-//     var tesktOdwrocony = tekst.reverse();
-//     var tekstPolaczony = tekst.join("");
-// }
-
-// var odwroconyTekst = reverseString();
-// console.log(odwroconyTekst);
+console.log(odwrocTekst("Akademia108"));
