@@ -27,31 +27,32 @@ function stanCheckboxa() {
 wszystkieZgody.onchange = stanCheckboxa;
 
 
-// to na czym nie byles
 
 function walidujFormularz(event) {
-    if (inputImie.value == "")
+    if (inputImie.value == "") {
 //        console.log("Dziala");
         var msgImie = document.createElement("li");
         msgImie.innerHTML = "Wpisz imie";
         wiadomosc.appendChild(msgImie);
         event.preventDefault();
+}
     
-    if (inputEmail.value == "")
+    if (inputEmail.value == "") {
 //        console.log("Dziala");
         var msgEmail = document.createElement("li");
-        msgEmail.innerHTML = "Wpisz email";
+        msgEmail.innerHTML = "Wpisz email!";
         wiadomosc.appendChild(msgEmail);
-        event.preventDefault();
-}
+        event.preventDefault();    
+    }
 
    if (!zgodaMarketingowa1.checked) {
         var msgZgoda = document.createElement("li");
-        msgZgoda.innerHTML = "Musisz wyrazic zgode";
+        msgZgoda.innerHTML = "Musisz wyrazic zgode!";
         wiadomosc.appendChild(msgZgoda);
         event.preventDefault();
-   
 }
+}
+
 
 //wyslijBtn.addEventListener("click", walidujFormularz);  lub
 wyslijBtn.onclick = walidujFormularz;
