@@ -2,7 +2,19 @@
 
 function pobierzImie(event) {
     event.preventDefault();
-    console.log("dziala :)");
+    
+//    console.log("dziala :)");
+    
     var form = document.getElementById("formularz");
-    //pobrac imie i nazwisko ???
+    console.log(form);
+    
+    for (var i = 0; i < form.length; i++) {
+//        console.log(form.elements[i].value);
+        
+        if (form.elements[i].value != 'Submit') {
+            console.log(form.elements[i].value);
+        }
+    }
 }
+
+// lub po ID
