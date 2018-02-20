@@ -1,0 +1,14 @@
+#kwadrat {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+#kwadrat #napis {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
