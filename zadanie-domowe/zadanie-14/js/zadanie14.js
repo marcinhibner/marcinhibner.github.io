@@ -1,14 +1,16 @@
 'use strict';
 
-function kalkulkator() {
-var x = 5;
-var y = 10;
-var a = eval("x * y") + "<br>";
-var b = eval("x / y") + "<br>";
-var c = eval("x + y") + "<br>";
-var d = eval("x - y") + "<br>";
-
-var rezultat = a + b + c + d;
+function wpisanieNaEkran(n) {
+  // document.getElementById("kalk").value += n;
+  var rezultat = document.getElementById("kalk");
+  rezultat.innerHTML += n;
+}
   
-    document.getElementById("kalk").innerHTML = rezultat;
+function wynik() {
+  var kalk = document.getElementById("kalk").innerHTML;
+  document.getElementById("kalk").innerHTML = eval(kalk);
+}
+
+function czyszczenieEkranu() {
+  document.getElementById("kalk").innerHTML = " ";
 }
