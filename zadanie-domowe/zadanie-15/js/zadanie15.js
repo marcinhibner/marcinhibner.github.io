@@ -8,11 +8,9 @@ $( "button" ).click( function() {
 }, 3000, function() {
   $( "div" ).animate( {
     "background-color": 'blue',
-}, 5000 ); 
+}, 5000, function() {
+  $( 'h2' ).animate( {
+    "opacity": '1', });
+}); 
 });
 });
-
-
-// function() {
-//   $( "h2" ).show();
-// }
