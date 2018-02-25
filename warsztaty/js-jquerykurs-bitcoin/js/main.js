@@ -1,9 +1,6 @@
+'use strict';
+
 function porownanie(){
-    'use strict';
-
- 
-
- 
 
 var buyArrow = $('#buy-arrow');
 
@@ -65,7 +62,7 @@ $.getJSON("https://blockchain.info/pl/ticker", function( data ) {
 
 });
 
-console.log('odświezono');
+console.log('odswiezono');
 
 }
 
