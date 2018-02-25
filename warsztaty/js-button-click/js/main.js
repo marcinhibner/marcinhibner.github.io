@@ -44,6 +44,10 @@ httpReq.onsuccess = function(response) {
     document.body.appendChild(par2);
     document.body.appendChild(par3);
     
+    par1.innerHTML = 'UserId: ' + jsonObj.userId;
+    par2.innerHTML = 'UserName: ' + jsonObj.userName;
+    par3.innerHTML = 'UserURL: ' + jsonObj.userURL;
+    
     }
 
     httpReq.send();
