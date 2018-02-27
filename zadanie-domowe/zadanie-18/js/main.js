@@ -46,10 +46,10 @@ httpReq.onsuccess = function(response) {
     document.body.appendChild(par3);
     document.body.appendChild(par4);
     
-    par1.innerHTML = 'Imię: ' + jsonObj.userName;
-    par2.innerHTML = 'Nazwisko: ' + jsonObj.userLastName;
-    par3.innerHTML = 'Zawód: ' + jsonObj.userJob;
-    par4.innerHTML = 'Firma: ' + jsonObj.userFirm;
+    par1.innerHTML = 'Imię: ' + jsonObj.imie; 
+    par2.innerHTML = 'Nazwisko: ' + jsonObj.nazwisko;
+    par3.innerHTML = 'Zawód: ' + jsonObj.zawod;
+    par4.innerHTML = 'Firma: ' + jsonObj.firma;
     
     }
 
@@ -62,9 +62,3 @@ function pobierzDane() {
 }
 
 document.getElementById('pobieranie').addEventListener('click', pobierzDane);
-
-
-//////
-//$.getJSON("https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php", function(data) {
-//    console.log(data);
-//});
