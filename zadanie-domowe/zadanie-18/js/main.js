@@ -36,20 +36,14 @@ httpReq.onsuccess = function(response) {
         var jsonObj = JSON.parse(response);
         console.log(jsonObj);
         
-    var par1 = document.createElement('div');
-    var par2 = document.createElement('div');
-    var par3 = document.createElement('div');
-    var par4 = document.createElement('div');
+    var par = document.createElement('div');
     
-    document.body.appendChild(par1);
-    document.body.appendChild(par2);
-    document.body.appendChild(par3);
-    document.body.appendChild(par4);
+    par.setAttribute("id", "dane-programisty");
+
+    document.body.appendChild(par);
     
-    par1.innerHTML = 'Imię: ' + jsonObj.imie; 
-    par2.innerHTML = 'Nazwisko: ' + jsonObj.nazwisko;
-    par3.innerHTML = 'Zawód: ' + jsonObj.zawod;
-    par4.innerHTML = 'Firma: ' + jsonObj.firma;
+    par.innerHTML = '<br>' + 'Imię: ' + jsonObj.imie + '<br>' +  'Nazwisko: ' + jsonObj.nazwisko + '<br>' + 'Zawód: ' + jsonObj.zawod + '<br>' + 'Firma: ' + jsonObj.firma;
+
     
     }
 
