@@ -1,0 +1,27 @@
+#main-header {
+	background-color: aqua;
+    height: 50vh;
+}
+
+.item {
+    background-color: green;
+}
+
+.item:nth-child(2) {
+    background-color: gray;
+}
+
+.item:nth-child(3) {
+    background-color: yellow;
+}
+
+/*
+#btn-klik {
+	background-color: lime;
+    border: 5px solid red;
+}
+
+#btn-klik:hover {
+	background-color: green;
+    border
+}*/
