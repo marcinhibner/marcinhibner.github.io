@@ -122,9 +122,17 @@ section h3 {
 }
 
 /*services koniec*/
+#portfolio {
+    background-color: #f7f7f7;
+}
+
 
 #portfolio .portfolio-item {
     background-color: #fff;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-image {
     overflow: hidden;
 }
 
@@ -183,6 +191,29 @@ section h3 {
     background-image: url(../img/portfolio/typing_on_laptop.jpg);
 }
 
-
-
 /*portfolio koniec*/
+
+#team figure img {
+    border-radius: 50%;
+}
+
+#team figure .social-link {
+    width: 50px;
+    height: 50px;
+    background-color: #222;
+    display: inline-block;
+    line-height: 50px;
+    border: 1px solid #222;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    margin: 5px;
+    transition: all .4s;
+    border-radius: 50%;
+}
+
+#team figure .social-link:hover {
+    background-color: #0ed8d6;
+}
+
+/*team koniec*/
