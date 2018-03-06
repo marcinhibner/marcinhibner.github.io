@@ -29,43 +29,44 @@
 	
 	
 	<!-- RWD - Responsive styles  -->
-	<link rel="stylesheet" href="css/responsive.css">
+<!--	<link rel="stylesheet" href="css/responsive.css">-->
 	
 </head>
 <body>
 
 
-
-
 	<!-- Main Navigation Start -->
 	
-	<nav id="main-nav">
+	<nav id="main-nav" class="navbar navbar-expand-lg fixed-top navbar-light">
+		 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 		
-		<label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop" />
-		
-		<ul>
-			<li><a href="#about">o mnie</a></li>
-			<li><a href="#skills">umiejetności</a></li>
-			<li><a href="#portfolio">portfolio</a></li>
-			<li><a href="#contact">kontakt</a></li>
-		</ul>
+			<ul class="navbar-nav mr-auto w-100 justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link" href="#about">O mnie</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#skills">Umiejętności</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Kontakt</a>
+				</li>
+			</ul>
 	</nav>
-	
+		
 	<!-- Main Navigation Stop -->
 	
-
-	
-		
-			
-				
 					
 							
 	<!-- Main Header Start -->
 	
 	<header id="main-header">
 		<div class="main-header-content">
-			<h1>Jan <span>Nowak</span></h1>
+			<h1>Krystian <span>Dziopa</span></h1>
 			<h2>Front-End Developer</h2>
 		</div>
 	</header>
@@ -74,37 +75,40 @@
 
 
 
-
-
-
-
-
 	<!-- About Section Start -->
 	
-	<section id="about">
-			<h2>O <span>mnie</span></h2>
-			<figure><img src="img/jan-nowak.jpg" alt="Łukasz Badocha"></figure>
-			<article class="about-content">
-				<p>Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych. Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</p>
-			</article>
-	</section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <header class="section-header">
+                    <h2>O <span>mnie</span></h2>
+                    <p class="section-caption">Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych. Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</p>
+                </header>
+            </div>
+              <div class="row">
+                <figure class="col-md-4">
+                    <img class="img-fluid" src="img/jan-nowak.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
 	
 	<!-- About Section Start -->
-	
-	
-	
-	
-	
 	
 	
 	
 	<!-- Skills Section Start -->
 	
-	<section id="skills">
-			<h2>Moje <span>umiejętnści</span></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta maiores distinctio dignissimos. Autem, consequatur recusandae totam molestias velit sequi!</p>
-			
-			<div id="skills-icons">
+<section id="skills">
+        <div class="container">
+            <div class="row">
+                <header class="section-header">
+                    <h2>Moje <span>umiejętnści</span></h2>
+                    <p class="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta maiores distinctio dignissimos. Autem, consequatur recusandae totam molestias velit sequi!</p>
+                </header>
+            </div>
+        </div>
+        <div id="skills-icons">
 				<figure class="skills-icons-item">
 					<img src="icons/html5.png" alt="Ikona HTML5"><figcaption>HTML5</figcaption>
 				</figure>
@@ -118,8 +122,8 @@
 					<img src="icons/jquery.png" alt="Ikona jQuery"><figcaption>jQuery</figcaption>
 				</figure>
 			</div>
-			
-	</section>
+        
+    </section>
 	
 	<!-- Skills Section Stop -->
 	
@@ -224,7 +228,7 @@
 	<!-- Footer Start -->
    
     <footer>
-		<p class="copyright">Copyright &copy Jan Nowak</p>
+		<p class="copyright">Copyright &copy Krystian Dziopa</p>
 	</footer>
 	
 	<!-- Footer Stop -->
