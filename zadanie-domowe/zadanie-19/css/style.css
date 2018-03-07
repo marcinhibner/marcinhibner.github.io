@@ -255,10 +255,6 @@ p {
 
 
 
-
-
-
-
 /* Section Contact - Start */
 
 #contact {
@@ -267,27 +263,37 @@ p {
 	overflow: hidden;
 }
 
-#contact .contact-data {
+#contact .container .section-header {
 	width: 50%;
 	float: left;
 }
 
-#contact .contact-data h2{
+/* znika guzik i nie chce sie przesunac w gore
+#contact .container form {
+	width: 100%;
+	position: relative;
+    display: block;
+    left: 50%;
+}
+*/
+
+
+#contact .container .section-header h2 {
 	text-align: left;
 	font-size: 38px;
 }
 
-#contact .contact-data address{
+#contact .container .section-header .section-caption {
 	font-style: normal;
 	margin: 72px 0;
 	line-height: 25px;
 }
 
-#contact .contact-data address a{
+#contact .container .section-header .section-caption a{
 	color: #1ac056;
 }
 
-#contact .contact-data .contact-social-icons a{
+#contact .container .section-header div a{
 	display: inline-block;
 	color: #fff;
 	height: 38px;
@@ -299,20 +305,19 @@ p {
 	font-size: 22px;
 }
 
-#contact .contact-data .contact-social-icons a:hover{
+#contact .container .section-header div {
+    display: inline-flex;
+    max-width: 100%;
+}
+
+#contact .container .section-header div a:hover{
 	color: #213b50;
 	border: 1px solid #213b50;
 	background-color: #fff;
 }
 
-#contact .contact-form {
-	width: 50%;
-	float: left;
-	margin-top: 100px;
-}
-
-#contact .contact-form form input,
-#contact .contact-form form textarea{
+#contact input,
+#contact textarea{
 	width: 100%;
 	padding: 15px;
     margin-bottom: 15px;
@@ -321,12 +326,12 @@ p {
     color: #fff
 }
 
-#contact .contact-form form input:focus,
-#contact .contact-form form textarea:focus{
+#contact input:focus,
+#contact textarea:focus{
     background-color: #426684;
 }
 
-#contact .contact-form form input[type="submit"]{
+#contact input[type="submit"]{
 	background-color: #1ac056;
     color: #fff;
     width: auto;
@@ -337,7 +342,7 @@ p {
     border: 1px #1ac056 solid;
 }
 
-#contact .contact-form form input[type="submit"]:hover{
+#contact input[type="submit"]:hover{
 	background-color: #fff;
     color: #1ac056;
 }
