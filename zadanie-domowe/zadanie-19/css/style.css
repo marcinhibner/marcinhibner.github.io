@@ -122,7 +122,7 @@ p {
     display: block;
 }
 
-#about > figure {
+#about .container .section-header figure {
 	width: 50%;
 	margin: 0;
 	float: left;
@@ -134,7 +134,7 @@ p {
 	float: right;
 }
 
-#about > figure > img {
+#about .container .section-header figure img {
 	max-height: 350px;
 	border: 14px #fff solid;
 	border-radius: 15px;
@@ -152,20 +152,24 @@ p {
 
 /* Section Skills - Start */
 
-#skills > p {
+#skills .container .section-header .section-caption {
 	text-align: center;
 }
 
-#skills div#skills-icons {
+#skills .container #skills-icons {
 	text-align: center;
 }
 
-#skills #skills-icons figure {
-	display: inline-block;
+#skills .container #skills-icons .skills-icons-item {
+	display: inline-flex;
 }
 
-#skills #skills-icons figure img {
+#skills .container #skills-icons .skills-icons-item img {
 	margin-bottom: 15px;
+}
+
+#skills .container #skills-icons .skills-icons-item figcaption {
+/*	flex-wrap: wrap;*/
 }
 
 /* Section Skills - Stop */
@@ -192,7 +196,8 @@ p {
 }
 
 #portfolio .section-header {
-    margin-left: 465px;
+    width: 100%;
+    text-align: center;
 }
 
 #portfolio .portfolio-item {
@@ -346,6 +351,13 @@ p {
 	background-color: #fff;
     color: #1ac056;
 }
+
+#contact .container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* Section Contact - Stop */
 

@@ -43,21 +43,22 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="#about">O mnie</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Umiejętności</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Kontakt</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Umiejętności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Main Navigation Stop -->
@@ -84,13 +85,11 @@
             <div class="row">
                 <header class="section-header">
                     <h2>O <span>mnie</span></h2>
+                    <figure class="col-12 col-sm-12 col-md-6">
+                        <img class="img-fluid" src="img/jan-nowak.jpg" alt="">
+                    </figure>
                     <p class="section-caption">Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych. Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</p>
                 </header>
-            </div>
-            <div class="row">
-                <figure class="col-md-4">
-                    <img class="img-fluid" src="img/jan-nowak.jpg" alt="">
-                </figure>
             </div>
         </div>
     </section>
@@ -103,32 +102,31 @@
 
     <section id="skills">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <header class="section-header">
-                    <h2>Moje <span>umiejętnści</span></h2>
+                    <h2>Moje <span>umiejętności</span></h2>
                     <p class="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta maiores distinctio dignissimos. Autem, consequatur recusandae totam molestias velit sequi!</p>
                 </header>
+                <div id="skills-icons">
+                    <figure class="skills-icons-item">
+                        <img src="icons/html5.png" alt="Ikona HTML5">
+                        <figcaption>HTML5</figcaption>
+                    </figure>
+                    <figure class="skills-icons-item">
+                        <img src="icons/css3.png" alt="Ikona CSS3">
+                        <figcaption>CSS3</figcaption>
+                    </figure>
+                    <figure class="skills-icons-item">
+                        <img src="icons/js.png" alt="Ikona JS">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure class="skills-icons-item">
+                        <img src="icons/jquery.png" alt="Ikona jQuery">
+                        <figcaption>jQuery</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
-        <div id="skills-icons">
-            <figure class="skills-icons-item">
-                <img src="icons/html5.png" alt="Ikona HTML5">
-                <figcaption>HTML5</figcaption>
-            </figure>
-            <figure class="skills-icons-item">
-                <img src="icons/css3.png" alt="Ikona CSS3">
-                <figcaption>CSS3</figcaption>
-            </figure>
-            <figure class="skills-icons-item">
-                <img src="icons/js.png" alt="Ikona JS">
-                <figcaption>JavaScript</figcaption>
-            </figure>
-            <figure class="skills-icons-item">
-                <img src="icons/jquery.png" alt="Ikona jQuery">
-                <figcaption>jQuery</figcaption>
-            </figure>
-        </div>
-
     </section>
 
     <!-- Skills Section Stop -->
@@ -208,34 +206,31 @@
         </div>
     </section>
 
-   
-   
+
+
     <!-- Portfolio Section Stop -->
 
 
 
     <!-- Contact Section Start -->
 
-   
-   <section id="contact">
+
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <header class="section-header">
                     <h2>Łukasz <span>Badocha</span></h2>
                     <p class="section-caption">
-                    ul. Mostowa 6/13<br>
-				    31-061 Kraków<br><br>
-				    tel: 606 74 57 59<br>
-				    e-mail: <a href="mailto:kursy@arena108.pl">kursy@akademia108.pl</a></p>
+                        ul. Mostowa 6/13<br> 31-061 Kraków<br><br> tel: 606 74 57 59<br> e-mail: <a href="mailto:kursy@arena108.pl">kursy@akademia108.pl</a></p>
                     <div class="col-md-4">
-                    <a href="#" class="social-link"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="social-link"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
-                </div>
+                        <a href="#" class="social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </header>
             </div>
-            <form action="#" class="row contact-form">
+            <form action="#" class="row contact-form align-items-end">
                 <div class="col-12 col-md-6 contact-form-column mb-3">
                     <input type="text" placeholder="Imię i nazwisko">
                     <input type="email" placeholder="Adres e-mail">
@@ -243,19 +238,19 @@
                 <div class="col-12 col-md-6 contact-form-column">
                     <textarea placeholder="Wiadomość"></textarea>
                 </div>
-                <div class="col-12 text-right">
+                <div class="col-12 w-50">
                     <input type="submit" value="Wyślij">
                 </div>
             </form>
         </div>
     </section>
-   
+
 
     <!-- Contact Section Stop -->
 
 
     <!-- Footer Start -->
-    
+
     <footer id="main-footer">
         <div class="container">
             <div class="row">
