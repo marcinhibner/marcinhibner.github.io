@@ -90,22 +90,24 @@ p {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: #fff;
+    height: 100vh;
 }
 
 #main-header .main-header-content{
-	padding: 30vh;
-	text-align: center;
+    width: 100%;
 }
 
 #main-header .main-header-content h1{
 	font-size: 4em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
+    padding-top: 240px;
 }
 
 #main-header .main-header-content h2{
 	font-weight: 200;
 	font-size: 2em;
+    padding-top: 40px;
 }
 
 /* Header - Stop */
@@ -123,15 +125,13 @@ p {
 }
 
 #about .container .section-header figure {
-	width: 50%;
 	margin: 0;
-	float: left;
+    float: left;
 	text-align: center;
 }
 
 #about .section-caption {
-	width: 50%;
-	float: right;
+    text-align: left;
 }
 
 #about .container .section-header figure img {
@@ -161,7 +161,8 @@ p {
 }
 
 #skills .container #skills-icons .skills-icons-item {
-	display: inline-flex;
+    display: inline-block;
+    margin: 40px;
 }
 
 #skills .container #skills-icons .skills-icons-item img {
@@ -268,37 +269,30 @@ p {
 	overflow: hidden;
 }
 
-#contact .container .section-header {
-	width: 50%;
+#contact .container {
+	width: 100%%;
 	float: left;
 }
 
-/* znika guzik i nie chce sie przesunac w gore
-#contact .container form {
-	width: 100%;
-	position: relative;
-    display: block;
-    left: 50%;
-}
-*/
 
-
-#contact .container .section-header h2 {
+#contact .container h2 {
 	text-align: left;
 	font-size: 38px;
 }
 
-#contact .container .section-header .section-caption {
+#contact .container .section-caption {
 	font-style: normal;
 	margin: 72px 0;
 	line-height: 25px;
+    text-align: left;
 }
 
-#contact .container .section-header .section-caption a{
+#contact .container .section-caption a{
 	color: #1ac056;
+    text-decoration: underline;
 }
 
-#contact .container .section-header div a{
+#contact .container .social-link{
 	display: inline-block;
 	color: #fff;
 	height: 38px;
@@ -310,12 +304,13 @@ p {
 	font-size: 22px;
 }
 
-#contact .container .section-header div {
-    display: inline-flex;
+#contact .container div {
+    display: inline-block;
     max-width: 100%;
+    text-align: center;
 }
 
-#contact .container .section-header div a:hover{
+#contact .container div a:hover{
 	color: #213b50;
 	border: 1px solid #213b50;
 	background-color: #fff;
@@ -353,10 +348,8 @@ p {
 }
 
 #contact .container form {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
-
 
 
 /* Section Contact - Stop */
