@@ -279,8 +279,7 @@ p {
 }
 
 #contact .container {
-	width: 100%%;
-	float: left;
+	width: 100%;
 }
 
 
@@ -316,7 +315,10 @@ p {
 #contact .container div {
     display: inline-block;
     max-width: 100%;
-/*    text-align: center;*/
+}
+
+#contact .container .linki {
+    margin-bottom: 100px;
 }
 
 #contact .container div a:hover{
@@ -358,13 +360,8 @@ p {
 
 #contact .container form {
     display: block;
-/*    margin-top: 50px;*/
+    padding-top: 50px;
 }
-
-#contact .container social-link {
-    padding-bottom: 50px;
-}
-
 
 /* Section Contact - Stop */
 
