@@ -1,0 +1,125 @@
+#portfolio {
+  padding-bottom: 100px; }
+  #portfolio .container .row .section-header {
+    width: 100%;
+    text-align: center; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-1 {
+      background-image: url(../img/portfolio1.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-2 {
+      background-image: url(../img/portfolio2.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-3 {
+      background-image: url(../img/portfolio4.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }

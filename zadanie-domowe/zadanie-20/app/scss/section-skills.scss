@@ -1,0 +1,31 @@
+@import 'zmienne';
+
+#skills {
+    padding-bottom: 50px;
+
+    .container {
+
+        .row {
+
+            .section-header {
+
+                .section-caption {
+                    text-align: $text-center;
+                }
+            }
+
+            #skills-icons {
+                text-align: $text-center;
+
+                .skills-icons-item {
+                    display: $inline-block;
+                    margin: 40px;
+
+                    img {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#main-nav {
+  width: 100%;
+  background-color: #fff;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+  #main-nav button {
+    display: none; }
+  #main-nav ul .nav-item {
+    margin: 0;
+    float: right; }
+    #main-nav ul .nav-item .nav-link {
+      display: inline-block;
+      list-style: none;
+      padding: 20px 40px;
+      color: #1ac056;
+      text-decoration: none;
+      font-weight: 300; }
+    #main-nav ul .nav-item a:hover {
+      color: #291f1a; }

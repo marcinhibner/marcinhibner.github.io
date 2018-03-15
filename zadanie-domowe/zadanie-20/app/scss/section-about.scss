@@ -1,0 +1,35 @@
+@import 'zmienne';
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    padding: 100px 0;
+    padding-top: 0px;
+
+    .container {
+
+        .row {
+            display: block;
+
+            .section-header {
+
+                figure {
+                    margin: $margin-0;
+                    float: left;
+                    text-align: $text-center;
+
+                    img {
+                        max-height: 350px;
+                        border: 14px #fff solid;
+                        border-radius: 15px;
+                        max-width: 100%;
+                    }
+                }
+
+                .section-caption {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

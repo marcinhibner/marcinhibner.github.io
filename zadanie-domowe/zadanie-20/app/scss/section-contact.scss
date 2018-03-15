@@ -1,0 +1,111 @@
+@import 'zmienne';
+@import 'mixin';
+
+#contact {
+    background-color: $ciemny-grafit;
+    color: $bialy;
+    overflow: hidden;
+
+    .container {
+        width: $width-100;
+
+        div {
+            display: $inline-block;
+            max-width: 100%;
+
+            div {
+
+                h2 {
+                    text-align: left;
+                    font-size: 38px;
+                }
+
+                .section-caption {
+                    font-style: normal;
+                    margin: 72px 0;
+                    line-height: 25px;
+                    text-align: left;
+
+                    a {
+                        color: $zielony;
+                        text-decoration: underline;
+                    }
+
+                    a:hover {
+                        @include hover;
+                    }
+
+                }
+
+                .linki {
+                    margin-bottom: 100px;
+
+                    .social-link {
+                        display: $inline-block;
+                        color: $bialy;
+                        height: 38px;
+                        width: 38px;
+                        text-align: $text-center;
+                        line-height: 38px;
+                        border: 1px solid $bialy;
+                        margin-right: 30px;
+                        font-size: 22px;
+                    }
+
+                    a:hover {
+                        @include hover;
+                    }
+                }
+            }
+
+            div {
+
+                form {
+                    display: block;
+                    padding-top: 50px;
+
+                    div {
+
+                        input {
+                            @include input-text;
+                        }
+
+                        input:focus {
+                            background-color: #426684;
+                        }
+                    }
+
+                    div {
+
+                        textarea {
+                            @include input-text;
+                        }
+
+                        textarea:focus {
+                            background-color: #426684;
+                        }
+                    }
+
+                    div {
+
+                        input[type="submit"] {
+                            background-color: $zielony;
+                            color: $bialy;
+                            width: auto;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            padding: 15px 30px;
+                            float: right;
+                            border: 1px $zielony solid;
+                        }
+
+                        input[type="submit"]:hover {
+                            background-color: $bialy;
+                            color: $zielony;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import 'zmienne';
+@import 'nav';
+@import 'header';
+@import 'section-about';
+@import 'section-skills';
+@import 'section-portfolio';
+@import 'section-contact';
+@import 'footer';
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: $czarny;
+	margin: $margin-0;
+	font-weight: 300;
+} 
+
+span {
+	color: $zielony;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: $text-center;
+}
+
+section {
+	width: $width-100;
+}
+
+section h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+
+p {
+	line-height: 25px;
+}

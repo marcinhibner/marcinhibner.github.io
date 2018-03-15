@@ -1,0 +1,304 @@
+#main-nav {
+  width: 100%;
+  background-color: #fff;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+  #main-nav button {
+    display: none; }
+  #main-nav ul .nav-item {
+    margin: 0;
+    float: right; }
+    #main-nav ul .nav-item .nav-link {
+      display: inline-block;
+      list-style: none;
+      padding: 20px 40px;
+      color: #1ac056;
+      text-decoration: none;
+      font-weight: 300; }
+    #main-nav ul .nav-item a:hover {
+      color: #291f1a; }
+
+#main-header {
+  background-image: url(../img/header-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  height: 100vh; }
+  #main-header .main-header-content {
+    width: 100%; }
+    #main-header .main-header-content h1 {
+      font-size: 4em;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      padding-top: 240px; }
+    #main-header .main-header-content h2 {
+      font-weight: 200;
+      font-size: 2em;
+      padding-top: 40px; }
+
+#about {
+  background-color: #f9fcfe;
+  overflow: hidden;
+  padding: 100px 0;
+  padding-top: 0px; }
+  #about .container .row {
+    display: block; }
+    #about .container .row .section-header figure {
+      margin: 0;
+      float: left;
+      text-align: center; }
+      #about .container .row .section-header figure img {
+        max-height: 350px;
+        border: 14px #fff solid;
+        border-radius: 15px;
+        max-width: 100%; }
+    #about .container .row .section-header .section-caption {
+      text-align: left; }
+
+#skills {
+  padding-bottom: 50px; }
+  #skills .container .row .section-header .section-caption {
+    text-align: center; }
+  #skills .container .row #skills-icons {
+    text-align: center; }
+    #skills .container .row #skills-icons .skills-icons-item {
+      display: inline-block;
+      margin: 40px; }
+      #skills .container .row #skills-icons .skills-icons-item img {
+        margin-bottom: 15px; }
+
+#portfolio {
+  padding-bottom: 100px; }
+  #portfolio .container .row .section-header {
+    width: 100%;
+    text-align: center; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-1 {
+      background-image: url(../img/portfolio1.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-2 {
+      background-image: url(../img/portfolio2.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }
+  #portfolio .container .row div .portfolio-item {
+    text-align: center;
+    font-size: 0; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-background {
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 100%;
+      position: relative; }
+    #portfolio .container .row div .portfolio-item .portfolio-image #portfolio-image-background-3 {
+      background-image: url(../img/portfolio4.jpg); }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask {
+      background-color: rgba(42, 61, 79, 0.8);
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      font-size: initial; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .portfolio-image-mask:hover {
+      opacity: 1; }
+    #portfolio .container .row div .portfolio-item .portfolio-image .item-content {
+      height: 330px;
+      border: 1px solid #fff;
+      margin: 10px;
+      position: relative; }
+      #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        padding: 5px; }
+        #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link {
+          color: #fff; }
+          #portfolio .container .row div .portfolio-item .portfolio-image .item-content .item-content-inner .project-link .project-link:hover {
+            color: #1ac056; }
+
+#contact {
+  background-color: #213b50;
+  color: #fff;
+  overflow: hidden; }
+  #contact .container {
+    width: 100%; }
+    #contact .container div {
+      display: inline-block;
+      max-width: 100%; }
+      #contact .container div div h2 {
+        text-align: left;
+        font-size: 38px; }
+      #contact .container div div .section-caption {
+        font-style: normal;
+        margin: 72px 0;
+        line-height: 25px;
+        text-align: left; }
+        #contact .container div div .section-caption a {
+          color: #1ac056;
+          text-decoration: underline; }
+        #contact .container div div .section-caption a:hover {
+          color: #213b50;
+          border: 1px solid #213b50;
+          background-color: #fff; }
+      #contact .container div div .linki {
+        margin-bottom: 100px; }
+        #contact .container div div .linki .social-link {
+          display: inline-block;
+          color: #fff;
+          height: 38px;
+          width: 38px;
+          text-align: center;
+          line-height: 38px;
+          border: 1px solid #fff;
+          margin-right: 30px;
+          font-size: 22px; }
+        #contact .container div div .linki a:hover {
+          color: #213b50;
+          border: 1px solid #213b50;
+          background-color: #fff; }
+      #contact .container div div form {
+        display: block;
+        padding-top: 50px; }
+        #contact .container div div form div input {
+          width: 100%;
+          padding: 15px;
+          margin-bottom: 15px;
+          background-color: #2b4a64;
+          border: #2b4a64 0px;
+          color: #fff; }
+        #contact .container div div form div input:focus {
+          background-color: #426684; }
+        #contact .container div div form div textarea {
+          width: 100%;
+          padding: 15px;
+          margin-bottom: 15px;
+          background-color: #2b4a64;
+          border: #2b4a64 0px;
+          color: #fff; }
+        #contact .container div div form div textarea:focus {
+          background-color: #426684; }
+        #contact .container div div form div input[type="submit"] {
+          background-color: #1ac056;
+          color: #fff;
+          width: auto;
+          text-transform: uppercase;
+          font-weight: 600;
+          padding: 15px 30px;
+          float: right;
+          border: 1px #1ac056 solid; }
+        #contact .container div div form div input[type="submit"]:hover {
+          background-color: #fff;
+          color: #1ac056; }
+
+footer {
+  background-color: #142634;
+  color: #fff;
+  padding: 0 80px;
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #291f1a;
+  margin: 0;
+  font-weight: 300; }
+
+span {
+  color: #1ac056;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; }
+
+section {
+  width: 100%; }
+
+section h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 60px;
+  margin-bottom: 35px; }
+
+p {
+  line-height: 25px; }

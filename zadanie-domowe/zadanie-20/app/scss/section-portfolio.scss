@@ -1,0 +1,153 @@
+@import 'zmienne';
+@import 'mixin';
+
+#portfolio {
+    padding-bottom: 100px;
+
+    .container {
+
+        .row {
+
+            .section-header {
+                width: $width-100;
+                text-align: $text-center;
+            }
+        }
+
+        .row {
+
+            div {
+
+                .portfolio-item {
+                    text-align: $text-center;
+                    font-size: 0;
+
+                    .portfolio-image {
+
+                        .portfolio-image-background {
+                            @include background;
+                        }
+
+                        #portfolio-image-background-1 {
+                            background-image: url(../img/portfolio1.jpg);
+                        }
+
+                        .portfolio-image-mask {
+                            @include mask;
+                        }
+                        .portfolio-image-mask:hover {
+                            opacity: 1;
+                        }
+
+                        .item-content {
+                            @include content;
+
+                            .item-content-inner {
+                                @include content-inner;
+
+                                .project-link {
+                                    color: $bialy;
+
+                                    .project-link:hover {
+                                        color: $zielony;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+            div {
+
+                .portfolio-item {
+                    text-align: $text-center;
+                    font-size: 0;
+
+                    .portfolio-image {
+
+                        .portfolio-image-background {
+                            @include background;
+                        }
+
+                        #portfolio-image-background-2 {
+                            background-image: url(../img/portfolio2.jpg);
+                        }
+
+                        .portfolio-image-mask {
+                            @include mask;
+                        }
+                        .portfolio-image-mask:hover {
+                            opacity: 1;
+                        }
+
+                        .item-content {
+                            @include content;
+
+                            .item-content-inner {
+                                @include content-inner;
+
+                                .project-link {
+                                    color: $bialy;
+
+                                    .project-link:hover {
+                                        color: $zielony;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+            div {
+
+                .portfolio-item {
+                    text-align: $text-center;
+                    font-size: 0;
+
+                    .portfolio-image {
+
+                        .portfolio-image-background {
+                            @include background;
+                        }
+
+                        #portfolio-image-background-3 {
+                            background-image: url(../img/portfolio4.jpg);
+                        }
+
+                        .portfolio-image-mask {
+                            @include mask;
+                        }
+                        .portfolio-image-mask:hover {
+                            opacity: 1;
+                        }
+
+                        .item-content {
+                            @include content;
+
+                            .item-content-inner {
+                                @include content-inner;
+
+                                .project-link {
+                                    color: $bialy;
+
+                                    .project-link:hover {
+                                        color: $zielony;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

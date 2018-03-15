@@ -1,0 +1,35 @@
+@import 'zmienne';
+
+#main-nav {
+    width: $width-100;
+    background-color: $bialy;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+    button {
+        display: none;
+    }
+
+    ul {
+
+        .nav-item {
+            margin: $margin-0;
+            float: right;
+
+            .nav-link {
+                display: $inline-block;
+                list-style: none;
+                padding: 20px 40px;
+                color: $zielony;
+                text-decoration: none;
+                font-weight: 300;
+            }
+
+            a:hover {
+                color: $czarny;
+            }
+        }
+
+    }
+}

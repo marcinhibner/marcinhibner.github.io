@@ -1,0 +1,27 @@
+@import 'zmienne';
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $bialy;
+    height: 100vh;
+
+    .main-header-content {
+        width: $width-100;
+
+        h1 {
+            font-size: 4em;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 200;
+            padding-top: 240px;
+        }
+
+        h2 {
+            font-weight: 200;
+            font-size: 2em;
+            padding-top: 40px;
+        }
+    }
+}

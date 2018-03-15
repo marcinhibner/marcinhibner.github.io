@@ -1,0 +1,51 @@
+@mixin background {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: $inline-block;
+    width: $width-100;
+    position: relative;
+}
+
+@mixin mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: $width-100;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+@mixin content {
+    height: 330px;
+	border: 1px solid $bialy;
+	margin: 10px;
+	position: relative;
+}
+
+@mixin content-inner {
+    color: $bialy;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
+@mixin hover {
+    color: $ciemny-grafit;
+    border: 1px solid $ciemny-grafit;
+    background-color: $bialy;  
+}
+
+@mixin input-text {
+    width: $width-100;
+	padding: 15px;
+    margin-bottom: 15px;
+    background-color: $jasny-grafit;
+    border: $jasny-grafit 0px;
+    color: $bialy;
+}
