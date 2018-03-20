@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>zadanie domowe nr 2</h1>
+
+    <form action="https://formspree.io/marcin.hibner@o2.pl" method="POST">
+
+        <label for="imie">Imię:</label><br>
+        <input type="text" id="imie" name="imie"><br>
+
+        <br><label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+
+        <br><label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <br><label for="telefon">Telefon:</label><br>
+        <input type="text" id="telefon" name="telefon"><br>
+
+        <br><label for="miasto">Miasto:</label><br>
+        <select name="miasto" id="miasto">
+       <option value="krakow">Kraków</option>
+       <option value="warszawa">Warszawa</option>
+       <option value="gdansk">Gdańsk</option>
+   </select><br>
+
+        <p>Wybierz płeć:<p>
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" name="plec" id="mezczyzna" value="mezczyzna"><br>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" name="plec" id="kobieta" value="kobieta"><br>
+
+        <br><label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
+        <input type="checkbox" name="zgoda" id="zgoda" value="zgoda"><br>
+
+        <br><label for="wiadomosc">Wiadomość:</label><br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="50" rows="3"></textarea><br>
+
+        <input type="submit" value="Wyślij"><br>
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+ form {
+     background-color: #213b50;
+     color: #fff;
+     padding: 20px;
+     width: 600px;
+ }
+
+form input, form select {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select, form input[type="text"], form input[type="telefon"], form input[type="email"], form textarea {
+    width: 300px;
+        background-color: grey;
+        color: white;
+        border: black 1px solid;
+        height: 25px;
+}
+
+form select:focus , form input:focus, form textarea:focus {
+    background-color: : black;
+        border: white 1px solid;
+    outline: none;
+}
+
+form input[type="checkbox"] {
+    float: left;
+}
+
+form input[type="submit"] {
+    background-color: green;
+    border: black 1px solid;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: greenyellow;
+}
